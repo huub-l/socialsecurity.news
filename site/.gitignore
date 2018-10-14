@@ -10,6 +10,11 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
+#Proprietary
+web/app/plugins/arqam-lite
+web/app/plugins/jannah-extensions
+web/app/plugins/jannah-switcher
+
 # Dotenv
 .env
 .env.*
