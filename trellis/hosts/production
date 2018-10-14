@@ -1,0 +1,7 @@
+socialsecurity.news ansible_host=
+
+[production]
+socialsecurity.news
+
+[web]
+socialsecurity.news

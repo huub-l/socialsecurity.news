@@ -1,0 +1,7 @@
+staging.socialsecurity.news ansible_host=142.93.21.156
+
+[staging]
+staging.socialsecurity.news
+
+[web]
+staging.socialsecurity.news
