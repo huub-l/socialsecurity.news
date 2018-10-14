@@ -1,0 +1,43 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+// IE 10 only
+
+// .half-box .mag-box-filter-links{
+//   max-width: 120px;
+// }
+
+// // Magazine Blocks
+// .has-sidebar .mag-box-filter-links{
+//   max-width: 250px;
+
+//   @include breakpoint_max(670px){
+//     max-width: 135px;
+//   }
+// }
+
+.mag-box-title .tie-alignright{
+  width: auto;
+
+ 	@include breakpoint_max(480px){
+	  .mag-box-filter-links{
+	    max-width: 50px;
+	  }
+	}
+}
+
+@include breakpoint_min(321px){
+  .normal-side {
+		.tabs-container-wrapper .tabs li{
+			width: calc((100% /3) - 0.5px);
+		}
+
+		.tabs-container-2 .tabs li{
+			width: calc(50% - 0.5px);
+		}
+
+		.tabs-container-1 .tabs li{
+			width: 100%;
+		}
+	}
+}

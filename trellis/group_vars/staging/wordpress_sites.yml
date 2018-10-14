@@ -17,3 +17,9 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: false
+    backup:
+      enabled: true
+      auto: false
+      target: b2://account_id:application_key@tinypixel-io-backups/vashonbuild-com/
+      schedule: '0 0 3 * * ?'
+      purge: false

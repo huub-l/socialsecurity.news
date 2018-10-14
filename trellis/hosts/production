@@ -1,4 +1,4 @@
-socialsecurity.news ansible_host=
+socialsecurity.news ansible_host=159.65.250.77
 
 [production]
 socialsecurity.news

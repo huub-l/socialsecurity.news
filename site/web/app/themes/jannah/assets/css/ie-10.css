@@ -1,0 +1,21 @@
+.mag-box-title .tie-alignright {
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  .mag-box-title .tie-alignright .mag-box-filter-links {
+    max-width: 50px;
+  }
+}
+
+@media (min-width: 321px) {
+  .normal-side .tabs-container-wrapper .tabs li {
+    width: calc((100% /3) - 0.5px);
+  }
+  .normal-side .tabs-container-2 .tabs li {
+    width: calc(50% - 0.5px);
+  }
+  .normal-side .tabs-container-1 .tabs li {
+    width: 100%;
+  }
+}
