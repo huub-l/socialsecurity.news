@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c971cffabd4330a2df11a375de60b051",
+    "content-hash": "03a7d43f41472ebcc3be8a97729fd145",
     "packages": [
         {
             "name": "composer/installers",
@@ -441,6 +441,169 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "tiny-packagist/monarch",
+            "version": "1.4.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/monarch/1.4.8",
+                "reference": null,
+                "shasum": "d2e5f6f0b3b243fe5f01ed95c9f50c35a0210fd4"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Elegant Themes",
+                "homepage": "http://www.elegantthemes.com"
+            },
+            "description": "Social Media Plugin",
+            "homepage": "http://www.elegantthemes.com"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro/1.9.1",
+                "reference": null,
+                "shasum": "14fdb06109ad0df76312a08bd14333dcf23f091a"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Delicious Brains",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "Export, push, and pull to migrate your WordPress databases.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro-cli",
+            "version": "1.3.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-cli/1.3.4",
+                "reference": null,
+                "shasum": "307ea19e7e0e699f56d3add8ac0cbaac2ae72880"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Delicious Brains",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "An extension to WP Migrate DB Pro, allows you to execute migrations using a function call or via WP-CLI",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro-media-files",
+            "version": "1.4.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-media-files/1.4.12",
+                "reference": null,
+                "shasum": "fcea9a4c99476745cf08cddcb27580de821d3d83"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Delicious Brains",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "An extension to WP Migrate DB Pro, allows the migration of media files.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro-multisite-tools",
+            "version": "1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-multisite-tools/1.2.3",
+                "reference": null,
+                "shasum": "1083c149dd054154d1b32aef7cab0f478f352a03"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Delicious Brains",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "An extension to WP Migrate DB Pro, supporting Multisite migrations.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "tiny-pixel/corporate-communion",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixelcollective/corporate-communion.git",
+                "reference": "21ca291dab0b0a194b07064de6693fa0e7b45b1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pixelcollective/corporate-communion/zipball/21ca291dab0b0a194b07064de6693fa0e7b45b1d",
+                "reference": "21ca291dab0b0a194b07064de6693fa0e7b45b1d",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kelly Mears",
+                    "email": "developers@tinypixel.io",
+                    "homepage": "https://tinypixel.io"
+                }
+            ],
+            "description": "Support for Drift and WeChat.",
+            "homepage": "https://github.com/pixelcollective/corporate-communion",
+            "support": {
+                "source": "https://github.com/pixelcollective/corporate-communion/tree/master",
+                "issues": "https://github.com/pixelcollective/corporate-communion/issues"
+            },
+            "time": "2018-11-19T02:33:07+00:00"
+        },
+        {
+            "name": "tiny-pixel/wp-performant-media",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixelcollective/wp-performant-media.git",
+                "reference": "445148ae755a591863344e5f489bea694f1c878f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pixelcollective/wp-performant-media/zipball/445148ae755a591863344e5f489bea694f1c878f",
+                "reference": "445148ae755a591863344e5f489bea694f1c878f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kelly Mears",
+                    "email": "developers@tinypixel.io",
+                    "homepage": "https://tinypixel.io"
+                }
+            ],
+            "description": "Simple lazy-loading images with subtle CSS transition and polyfill support.",
+            "homepage": "https://github.com/pixelcollective/wp-performant-media",
+            "time": "2018-11-12T07:12:25+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.5.1",
             "source": {
@@ -492,7 +655,7 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
@@ -500,7 +663,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1543949424",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1544095852",
                 "reference": null,
                 "shasum": null
             },
@@ -531,6 +694,26 @@
             "homepage": "https://wordpress.org/plugins/cdn-enabler/"
         },
         {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
             "name": "wpackagist-plugin/dark-mode",
             "version": "3.1",
             "source": {
@@ -552,15 +735,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "1.7.1",
+            "version": "1.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -689,6 +872,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-local-avatars/"
+        },
+        {
+            "name": "wpackagist-plugin/stream",
+            "version": "3.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stream/",
+                "reference": "tags/3.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stream.3.2.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stream/"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.15.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.15.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.15.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
@@ -1008,6 +1231,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "tiny-pixel/corporate-communion": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

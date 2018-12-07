@@ -5,9 +5,7 @@
 wordpress_sites:
   socialsecurity.news:
     site_hosts:
-      - canonical: socialsecurity.pix
-        redirects:
-          - www.socialsecurity.pix
+      - canonical: socialsecurity.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: developers@tinypixel.io
     multisite:
