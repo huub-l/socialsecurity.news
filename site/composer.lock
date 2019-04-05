@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8cf202da489fa315d02f6f5d88ee00d",
+    "content-hash": "5aeed7cf4ab375193b4908b516f242b8",
     "packages": [
         {
             "name": "composer/installers",
@@ -464,26 +464,6 @@
                 "portable"
             ],
             "time": "2019-02-06T07:57:58+00:00"
-        },
-        {
-            "name": "tiny-packagist/monarch",
-            "version": "1.4.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.tinypixel.io/satispress/monarch/1.4.8",
-                "reference": null,
-                "shasum": "d2e5f6f0b3b243fe5f01ed95c9f50c35a0210fd4"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "Elegant Themes",
-                "homepage": "http://www.elegantthemes.com"
-            },
-            "description": "Social Media Plugin",
-            "homepage": "http://www.elegantthemes.com"
         },
         {
             "name": "tiny-pixel/admin-to-console",
