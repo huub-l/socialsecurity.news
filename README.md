@@ -1,6 +1,6 @@
 # Social Security News
 
-Project for Social Security Works.
+Deployment for Social Security Works.
 
 ## Build Status
 
