@@ -2,8 +2,10 @@
 path: web/wp
 
 @development:
-  ssh: vagrant@socialsecurity.valet/srv/www/socialsecurity.news/current
+  ssh: vagrant@socialsecurity.valet/srv/www/socialsecurity.valet/current
+
 @staging:
   ssh: web@staging.socialsecurity.news/srv/www/socialsecurity.news/current
+
 @production:
   ssh: web@socialsecurity.news/srv/www/socialsecurity.news/current

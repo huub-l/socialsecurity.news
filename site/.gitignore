@@ -22,6 +22,8 @@ web/app/plugins/jannah-switcher
 .env
 .env.*
 !.env.example
+*.sql
+web/app/updraft
 
 # Composer
 /vendor
