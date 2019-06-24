@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63d9a996728a69f5ee8b7e1be28d3770",
+    "content-hash": "82687d66689b751bf898d05dbbc48a24",
     "packages": [
         {
             "name": "composer/installers",
@@ -127,85 +127,6 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
-            "name": "johnpbloch/wordpress",
-            "version": "5.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "597236f0e4126ef92611b904725fd4e60afdc1ac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/597236f0e4126ef92611b904725fd4e60afdc1ac",
-                "reference": "597236f0e4126ef92611b904725fd4e60afdc1ac",
-                "shasum": ""
-            },
-            "require": {
-                "johnpbloch/wordpress-core": "5.2.2",
-                "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
-            },
-            "type": "package",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
-            "homepage": "http://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "time": "2019-06-18T17:58:03+00:00"
-        },
-        {
-            "name": "johnpbloch/wordpress-core",
-            "version": "5.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "provide": {
-                "wordpress/core-implementation": "5.2.2"
-            },
-            "type": "wordpress-core",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "http://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "time": "2019-06-18T17:57:57+00:00"
-        },
-        {
             "name": "oscarotero/env",
             "version": "v1.2.0",
             "source": {
@@ -292,6 +213,43 @@
                 "wordpress"
             ],
             "time": "2019-05-23T21:45:50+00:00"
+        },
+        {
+            "name": "roots/wordpress",
+            "version": "5.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WordPress/WordPress.git",
+                "reference": "5.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2",
+                "reference": "5.2.2"
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "roots/wordpress-core-installer": ">=1.0.0"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "https://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2019-06-18T17:53:14+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
